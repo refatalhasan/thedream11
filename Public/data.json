@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "image": "https://i.ibb.co.com/KckT04j9/Virat-Kohli.webp",
+    "country": "India",
+    "rating": 95,
+    "role": "Batsman",
+    "battingStyle": "Right-hand batsman",
+    "price": 1500000
+  },
+  {
+    "id": 2,
+    "name": "Babar Azam",
+    "image": "https://i.ibb.co.com/TyRRXtZ/1-i2-D04lfp1-IX-Sai5-Qf-Kpb-A.gif",
+    "country": "Pakistan",
+    "rating": 92,
+    "role": "Batsman",
+    "battingStyle": "Right-hand batsman",
+    "price": 1300000
+  },
+  {
+    "id": 3,
+    "name": "David Warner",
+    "image": "https://i.ibb.co.com/9H4rXxBM/5218.webp",
+    "country": "Australia",
+    "rating": 89,
+    "role": "Batsman",
+    "battingStyle": "Left-hand batsman",
+    "price": 1200000
+  },
+  {
+    "id": 4,
+    "name": "Ben Stokes",
+    "image": "https://i.ibb.co.com/sJq3tjST/bc3942b97709635c01bb88d261840ab2-Y29ud-GVud-HNl-YXJja-GFwa-Swx-Nz-Qw-NTY0-MDI3-2-78466672.jpg",
+    "country": "England",
+    "rating": 88,
+    "role": "Allrounder",
+    "battingStyle": "Left-hand batsman",
+    "price": 1400000
+  },
+  {
+    "id": 5,
+    "name": "Shakib Al Hasan",
+    "image": "https://i.ibb.co.com/zWzN7YQt/sh-1-20241130092258.jpg",
+    "country": "Bangladesh",
+    "rating": 87,
+    "role": "Allrounder",
+    "battingStyle": "Left-hand batsman",
+    "price": 1250000
+  },
+  {
+    "id": 6,
+    "name": "Kane Williamson",
+    "image": "https://i.ibb.co.com/YTN4F5Cv/1709790566-kanewilliamson.jpg",
+    "country": "New Zealand",
+    "rating": 90,
+    "role": "Batsman",
+    "battingStyle": "Right-hand batsman",
+    "price": 1350000
+  },
+  {
+    "id": 7,
+    "name": "Rashid Khan",
+    "image": "https://i.ibb.co.com/d04484gH/Rashid-Khan-1.jpg",
+    "country": "Afghanistan",
+    "rating": 91,
+    "role": "Bowler",
+    "battingStyle": "Right-hand batsman",
+    "price": 1100000
+  },
+  {
+    "id": 8,
+    "name": "Jasprit Bumrah",
+    "image": "https://i.ibb.co.com/JwTrqtVc/j4t457ds-jasprit-bumrah-625x300-10-September-25.webp",
+    "country": "India",
+    "rating": 93,
+    "role": "Bowler",
+    "battingStyle": "Right-hand batsman",
+    "price": 1400000
+  },
+  {
+    "id": 9,
+    "name": "Mitchell Starc",
+    "image": "https://i.ibb.co.com/C35hMq77/Mitchell-Starc.jpg",
+    "country": "Australia",
+    "rating": 90,
+    "role": "Bowler",
+    "battingStyle": "Left-hand batsman",
+    "price": 1250000
+  }
+]

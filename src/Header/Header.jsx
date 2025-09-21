@@ -4,17 +4,36 @@ import BgShadow from '../assets/bg-shadow.png'
 import { useState } from 'react';
 import Available from '../Available/Available';
 import Selected from '../Selected/Selected'
+import Players from '../Available/Players';
 
 
 const Header = () => {
     const [coins, setCoins] = useState(0);
     const [hasClicked, setClicked] = useState(false);
     const [activePage, setActivePage] = useState("available");
+    const [selectedPlayers, setSelectedPlayers] = useState([]);
 
+    const handleAddToSelected = (player) => {
+        if (selectedPlayers.find(p => p.id === player.id)) {
+            alert("Player already selected!");
+            return;
+        }
+        if (coins >= player.price) {
+            setCoins(prevCoins => prevCoins - player.price);
+            setSelectedPlayers(prev => [...prev, player]);
+        } else {
+            alert("Not enough coins!");
+        }
+    };
+
+
+    const removePlayer = (id) => {
+        setSelectedPlayers(prev => prev.filter(player => player.id !== id));
+    };
 
     const addCoins = () => {
         if (!hasClicked) {
-            setCoins(480000);
+            setCoins(4800000);
             setClicked(true);
         }
     }
@@ -50,7 +69,10 @@ const Header = () => {
                     ${activePage === "selected" ? "bg-[#E7FE29]" : "bg-white"}`}>Selected</button>
                 </div>
             </section>
-             {activePage === "available" ? <Available /> : <Selected />}
+            {activePage === "available"
+                ? <Available handleAddToSelected={handleAddToSelected} />
+                : <Selected selectedPlayers={selectedPlayers} removePlayer={removePlayer} />}
+
         </div>
 
     );

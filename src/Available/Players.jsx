@@ -14,6 +14,7 @@ const Players = ({ player }) => {
                 </div>
                 <h2 className="text-[#818181]">Rating: {rating}</h2>
                 <h2 className="text-[#818181]">Batting style: {battingStyle}</h2>
+                
                 <div className="flex justify-between items-end mb-5 mt-10 w-full h-fit font-bold">
                     <h2 className="text-xl text-[#505050]">Price: ${price}</h2>
                     <button className="text-[#818181] border cursor-pointer shadow px-4 py-3 rounded-xl">Choose Player</button>

@@ -7,8 +7,10 @@ Players can be **added, bid on, and managed**, showcasing clean React structure,
 
 ## 🛠️ Technologies Used  
 
-- **React.js** – UI components and state management  
-- **Tailwind CSS** – responsive, utility-first styling  
+- **React.js**
+- **Tailwind CSS**
+
+- ## ⚠️ This project is not Responsive 
 
 ---
 

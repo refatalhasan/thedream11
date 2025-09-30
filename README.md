@@ -10,7 +10,7 @@ Players can be **added, bid on, and managed**, showcasing clean React structure,
 - **React.js**
 - **Tailwind CSS**
 
-- ## ⚠️ This project is not Responsive 
+## ⚠️ This project is not Responsive 
 
 ---
 

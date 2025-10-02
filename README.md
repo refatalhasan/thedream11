@@ -3,7 +3,6 @@
 A responsive **React** + **Tailwind CSS** project that simulates a cricket player auction system.  
 Players can be **added, bid on, and managed**, showcasing clean React structure, Tailwind utility-first styling, and responsive layouts.  
 
----
 
 ## 🛠️ Technologies Used  
 
@@ -12,13 +11,11 @@ Players can be **added, bid on, and managed**, showcasing clean React structure,
 
 ## ⚠️ This project is not Responsive 
 
----
 
 ## 🌐 Live Demo  
 
 👉 [View Live Project](https://thedream11.netlify.app/)  
 
----
 
 ## 🔗 Installation & Setup  
 
